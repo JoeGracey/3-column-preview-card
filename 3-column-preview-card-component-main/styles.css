@@ -4,37 +4,99 @@ html {
 
 .main-div {
   overflow: hidden;
-  width: 100%;
+  margin: 0 150px 0 150px;
+  border-radius: 5px;
 }
 
 h1 {
   color: #bcbcbc;
+  margin: 50px 0 0 50px;
 }
 
-.sedans {
-  font-family: sans-serif;
-  background-color: #ce7e00;
-  float: left;
-  width: 33%;
-  text-align: left;
-}
-
-.suvs {
-  font-family: sans-serif;
-  background-color: #3c737f;
+.sedans-div {
+  background-color: #b45f06;
   float: left;
   width: 34%;
-  text-align: left;
+  height: 500px;
 }
 
-.luxury {
-  font-family: sans-serif;
+.suvs-div {
+  background-color: #134f5c;
+  float: left;
+  width: 33%;
+  height: 500px;
+}
+
+.luxury-div {
   background-color: #0c343d;
   float: left;
   width: 33%;
-  text-align: left;
+  height: 500px;
+}
+
+img {
+  margin: 50px 0 0 50px;
 }
 
 p {
+  margin: 50px 50px 0 50px;
+  line-height: 1.5;
   color: #bcbcbc;
+}
+
+.button-sedans {
+  background-color: #bcbcbc;
+  border: none;
+  color: #b45f06;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 50px 0 0 50px;
+  border-radius: 25px;
+}
+
+.button-sedans:hover {
+  background-color: #b45f06;
+  color: #bcbcbc;
+  border: .5px solid #bcbcbc;
+}
+
+.button-suvs {
+  background-color: #bcbcbc;
+  border: none;
+  color: #134f5c;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 50px 0 0 50px;
+  border-radius: 25px;
+}
+
+.button-suvs:hover {
+  background-color: #134f5c;
+  color: #bcbcbc;
+  border: .5px solid #bcbcbc;
+}
+
+.button-luxury {
+  background-color: #bcbcbc;
+  border: none;
+  color: #0c343d;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 50px 0 0 50px;
+  border-radius: 25px;
+}
+
+.button-luxury:hover {
+  background-color: #0c343d;
+  color: #bcbcbc;
+  border: .5px solid #bcbcbc;
 }
