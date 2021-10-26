@@ -3,24 +3,38 @@ html {
 }
 
 .main-div {
-  border: 1px solid red;
   overflow: hidden;
+  width: 100%;
+}
+
+h1 {
+  color: #bcbcbc;
 }
 
 .sedans {
   font-family: sans-serif;
-  background-color: orange;
+  background-color: #ce7e00;
   float: left;
+  width: 33%;
+  text-align: left;
 }
 
 .suvs {
   font-family: sans-serif;
-  background-color: blue;
+  background-color: #3c737f;
   float: left;
+  width: 34%;
+  text-align: left;
 }
 
 .luxury {
   font-family: sans-serif;
-  background-color: green;
+  background-color: #0c343d;
   float: left;
+  width: 33%;
+  text-align: left;
+}
+
+p {
+  color: #bcbcbc;
 }
