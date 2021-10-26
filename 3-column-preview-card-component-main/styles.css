@@ -1,3 +1,26 @@
 html {
   background: grey;
 }
+
+.main-div {
+  border: 1px solid red;
+  overflow: hidden;
+}
+
+.sedans {
+  font-family: sans-serif;
+  background-color: orange;
+  float: left;
+}
+
+.suvs {
+  font-family: sans-serif;
+  background-color: blue;
+  float: left;
+}
+
+.luxury {
+  font-family: sans-serif;
+  background-color: green;
+  float: left;
+}
